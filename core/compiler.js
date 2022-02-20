@@ -41,7 +41,7 @@ var fs = require('fs');
 var _a = require('fs/promises'), readFile = _a.readFile, writeFile = _a.writeFile;
 function main() {
     return __awaiter(this, void 0, void 0, function () {
-        var files, i, file, findFunctions, firstStage, secondStage, thirdStage, s4, s5, nameForFile;
+        var files, i, file, findFunctions, firstStage, secondStage, thirdStage, s4, s5, s6, nameForFile;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
@@ -66,8 +66,9 @@ function main() {
                     thirdStage = secondStage.replace(/\elif/gm, 'else if');
                     s4 = thirdStage.replace(/cl\(/gm, 'console.log(');
                     s5 = s4.replace(/\.djs/gm, '');
+                    s6 = s5.replace(/\ ->/gm, ':');
                     nameForFile = files[i].name.replace(/\.djs/gm, '.ts');
-                    return [4 /*yield*/, writeFile("./res/" + nameForFile, s5, 'utf-8', function (err) {
+                    return [4 /*yield*/, writeFile("./res/" + nameForFile, s6, 'utf-8', function (err) {
                             if (err)
                                 throw err;
                             console.log('done');

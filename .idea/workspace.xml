@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32786435-f176-46db-a4db-73a3af4b6eac" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/.npmignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/bin/bcrypt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/dist/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/dist/bcrypt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/dist/bcrypt.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/dist/bcrypt.min.js.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/dist/bcrypt.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/externs/bcrypt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/externs/minimal-env.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/scripts/build.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/src/bcrypt.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/src/bcrypt/impl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/src/bcrypt/prng/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/src/bcrypt/prng/accum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/src/bcrypt/prng/isaac.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/src/bcrypt/util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/src/bcrypt/util/base64.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/src/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/src/wrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/tests/quickbrown.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/node_modules/bcryptjs/tests/suite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dev/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/compiler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/compiler.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/app.djs" beforeDir="false" afterPath="$PROJECT_DIR$/files/app.djs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +57,7 @@
       <recent name="C:\Users\onoso\OneDrive\Рабочий стол\Test\daksin-script\files" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.watch">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -112,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.watch" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +96,7 @@
       <workItem from="1645342688235" duration="6634000" />
       <workItem from="1645357728943" duration="2889000" />
       <workItem from="1645363250770" duration="134000" />
-      <workItem from="1645368269482" duration="8224000" />
+      <workItem from="1645368269482" duration="8610000" />
     </task>
     <servers />
   </component>

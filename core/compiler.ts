@@ -20,8 +20,9 @@ export async function main(): Promise<any> {
         const thirdStage = secondStage.replace(/\elif/gm, 'else if')
         const s4 = thirdStage.replace(/cl\(/gm, 'console.log(')
         const s5 = s4.replace(/\.djs/gm, '')
+        const s6 = s5.replace(/\ ->/gm, ':')
         const nameForFile = files[i].name.replace(/\.djs/gm, '.ts')
-        await writeFile(`./res/${nameForFile}`, s5, 'utf-8', (err: any) => {
+        await writeFile(`./res/${nameForFile}`, s6, 'utf-8', (err: any) => {
             if (err) throw err;
             console.log('done')
         })

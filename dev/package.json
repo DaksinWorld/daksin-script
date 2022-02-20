@@ -5,12 +5,12 @@
   "main": "app.js",
   "scripts": {
     "start": "tsc app.ts && npm run watch",
-    "watch": "node app.js"
+    "watch": "node app.js && ts-node res --watch"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
+    "@types/node": "^17.0.18",
     "daksin-script": "^1.0.4"
   }
 }

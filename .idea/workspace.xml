@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32786435-f176-46db-a4db-73a3af4b6eac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/core/compiler.ts" beforeDir="false" afterPath="$PROJECT_DIR$/core/compiler.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/files/app.djs" beforeDir="false" afterPath="$PROJECT_DIR$/files/app.djs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,7 @@
       <workItem from="1645342688235" duration="6634000" />
       <workItem from="1645357728943" duration="2889000" />
       <workItem from="1645363250770" duration="134000" />
-      <workItem from="1645368269482" duration="8610000" />
+      <workItem from="1645368269482" duration="8927000" />
     </task>
     <servers />
   </component>

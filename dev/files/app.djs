@@ -1,0 +1,3 @@
+func instanceOf() {
+    cl('closeyoureyes')
+}

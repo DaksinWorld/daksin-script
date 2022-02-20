@@ -1,0 +1,16 @@
+{
+  "name": "dev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "tsc app.ts && npm run watch",
+    "watch": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "daksin-script": "^1.0.4"
+  }
+}

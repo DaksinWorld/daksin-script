@@ -1,0 +1,41 @@
+Index: readme.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>**Some info about**\r\n-\r\n\r\nDaksin-script's is minimalistic typed language, which was create to make your code more readable and faster\r\n\r\n**Instalation**\r\n-\r\n**Before we start, you must have installed Type Script**\r\nIf you have not paste this command into terminal\r\n\r\n`\r\nnpm i -g typescript\r\n`\r\n\r\nFirst you should install dependecies \r\n\r\n`\r\nnpm install daksin-script @types/node\r\n`\r\n\r\nIn your project directory create **app.ts** file and **files** folder.\r\n\r\nPaste this code into **app.ts**\r\n\r\n`\r\nimport {main} from 'daksin-script/core/compiler'; \r\nmain();\r\n`\r\n\r\nThen into your package.json add this lines of code\r\n\r\n`\r\n\"scripts\": {\r\n\"start\": \"tsc app.ts && npm run watch\",\r\n\"watch\": \"node app.js && ts-node res --watch\"\r\n},`\r\n\r\nAfter all, **files** folder is your \r\nnon-fordable (it means, that you cannot create folders as this will cause errors)\r\ndirectory, where you create files with *.djs extension\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/readme.md b/readme.md
+--- a/readme.md	
++++ b/readme.md	
+@@ -12,28 +12,10 @@
+ npm i -g typescript
+ `
+ 
+-First you should install dependecies 
++Then paste copy and paste this command: 
+ 
+ `
+-npm install daksin-script @types/node
+-`
+-
+-In your project directory create **app.ts** file and **files** folder.
+-
+-Paste this code into **app.ts**
+-
+-`
+-import {main} from 'daksin-script/core/compiler'; 
+-main();
+-`
+-
+-Then into your package.json add this lines of code
+-
+-`
+-"scripts": {
+-"start": "tsc app.ts && npm run watch",
+-"watch": "node app.js && ts-node res --watch"
+-},`
++git clone `
+ 
+ After all, **files** folder is your 
+ non-fordable (it means, that you cannot create folders as this will cause errors)

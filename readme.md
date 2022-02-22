@@ -12,28 +12,10 @@ If you have not paste this command into terminal
 npm i -g typescript
 `
 
-First you should install dependecies 
+Then paste this command into terminal.
 
 `
-npm install daksin-script @types/node
-`
-
-In your project directory create **app.ts** file and **files** folder.
-
-Paste this code into **app.ts**
-
-`
-import {main} from 'daksin-script/core/compiler'; 
-main();
-`
-
-Then into your package.json add this lines of code
-
-`
-"scripts": {
-"start": "tsc app.ts && npm run watch",
-"watch": "node app.js && ts-node res --watch"
-},`
+git clone https://github.com/DaksinWorld/daksin-script.git`
 
 After all, **files** folder is your 
 non-fordable (it means, that you cannot create folders as this will cause errors)

@@ -22,3 +22,6 @@ non-fordable (it means, that you cannot create folders as this will cause errors
 directory, where you create files with *.djs extension.
 
 Enjoy coding!
+
+Syntax docs:
+https://github.com/DaksinWorld/daksin-script-template/blob/master/readme.md

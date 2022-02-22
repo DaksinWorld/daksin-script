@@ -1,4 +1,4 @@
-import {start} from './app.djs'
+import {start} from './app.dkjs'
 
 func main(arg -> string) {
     cl(start('sadas'))

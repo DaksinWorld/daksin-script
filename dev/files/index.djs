@@ -1,5 +1,8 @@
-func log() {
-   const data = []
+import {start} from './app.djs'
 
-   cl(data)
+func main(arg -> string) {
+    cl(start('sadas'))
+    cl(arg)
 }
+
+main('adasd')

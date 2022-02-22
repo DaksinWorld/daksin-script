@@ -1,12 +1,19 @@
 import bcrypt from 'bcryptjs'
+import {returnFunction, evaluateFunction, latestItem, getObjectKeys, faker} from '../core/lib/index'
 
-export func start(password -> string) -> boolean {
+export func start(password -> string) -> boolean |or| string |or| undefined {
     const salt = bcrypt.genSaltSync(10)
     const passwordHash = bcrypt.hashSync(password, salt)
     const compared = bcrypt.compareSync(password, '$2a$10$77KuF/2bVlhffSnXeDuNUu96MtfMzjTl6AvOMMVg0Ls25Q7Ma2Sb6')
+
+    cl(returnFunction('string'))
+    cl(evaluateFunction('2+2'))
+    cl(latestItem(['asdd', 'adasd', 'last']))
+    cl(getObjectKeys({data: {name: 'asdasd'}, data2: {name: 'sadasd'}}))
+    cl(faker())
     if (compared) {
-        return 'Success!'
+        rtn 'Success!'
     }  elif (!compared){
-        return 'Error!'
+        rtn 'Error!'
     }
 }

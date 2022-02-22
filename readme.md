@@ -19,4 +19,6 @@ git clone https://github.com/DaksinWorld/daksin-script.git`
 
 After all, **files** folder is your 
 non-fordable (it means, that you cannot create folders as this will cause errors)
-directory, where you create files with *.djs extension
+directory, where you create files with *.djs extension.
+
+Enjoy coding!

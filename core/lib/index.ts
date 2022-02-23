@@ -1,3 +1,6 @@
+import {existsSync} from 'fs'
+import * as fs from "fs";
+
 export function returnFunction(arg: any): any {
     return arg;
 }
@@ -23,4 +26,25 @@ export function faker(): string[] {
     }
 
     return arr
+}
+
+export function rm(path: string): string | undefined {
+    try {
+        if(fs.existsSync(path)) {
+            fs.rmSync(path)
+            return `File ${path} was successfully deleted`
+        } else {
+            return 'file wasn\'t found'
+        }
+    } catch (e: any) {
+        return e
+    }
+}
+
+export function debug(code: string): any | undefined {
+    try {
+        return eval(code)
+    } catch (e: any) {
+        return e
+    }
 }

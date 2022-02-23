@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs'
-import {returnFunction, evaluateFunction, latestItem, getObjectKeys, faker} from '../core/lib/index'
+import {returnFunction, evaluateFunction, latestItem, getObjectKeys, faker, rm, debug} from '../core/lib/index'
 
 export function start(password: string): boolean | string | undefined {
     const salt = bcrypt.genSaltSync(10)
@@ -11,6 +11,8 @@ export function start(password: string): boolean | string | undefined {
     console.log(latestItem(['asdd', 'adasd', 'last']))
     console.log(getObjectKeys({data: {name: 'asdasd'}, data2: {name: 'sadasd'}}))
     console.log(faker())
+    console.log(rm('./text.txt'))
+    console.log(debug('2+2'))
     if (compared) {
         return 'Success!'
     }  else if (!compared){

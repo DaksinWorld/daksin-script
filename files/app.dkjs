@@ -10,7 +10,7 @@ export func start(password -> string) -> boolean |or| string |or| undefined {
     cl(evaluateFunction('2+2'))
     cl(latestItem(['asdd', 'adasd', 'last']))
     cl(getObjectKeys({data: {name: 'asdasd'}, data2: {name: 'sadasd'}}))
-    cl(faker())
+    cl(faker(4))
     cl(rm('./text.txt'))
     cl(debug('2+2'))
     if (compared) {

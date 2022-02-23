@@ -17,11 +17,11 @@ export function getObjectKeys(obj: object): string[] {
     return Object.keys(obj)
 }
 
-export function faker(): string[] {
+export function faker(limit: number): string[] {
     const array = ['ben', 'clock', 'phone', 'head', 'heart', 'call', 'You', 'me', 'i', 'wow', 'js', 'ts', 'get', 'lost', 'theme', 'book', 'pen', 'dot', 'daksin-script']
     const arr: string[] = []
 
-    for(let i = 0; i<5; i++) {
+    for(let i = 0; i<limit; i++) {
           arr.push(array[Math.floor(Math.random() * array.length)])
     }
 
